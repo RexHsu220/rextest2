@@ -43,7 +43,8 @@ def handle_message(event):
         r = '嗨垃圾'
     elif msg == '睡了沒':
         r = '乾你屁事'
-
+    elif msg in ['徐唯耀','rex', 'Rex']:
+        r = '帥'
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text=r))
