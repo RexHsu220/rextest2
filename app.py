@@ -38,6 +38,11 @@ def callback():
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     msg = event.message.text
+    r = '乖小孩'
+    if r == 'hi':
+        r = '嗨垃圾'
+    elif r == '睡了沒'
+        r = '乾你屁事'
     line_bot_api.reply_message(
         event.reply_token,
         TextSendMessage(text='小婊子'))
