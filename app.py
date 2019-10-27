@@ -41,7 +41,7 @@ def handle_message(event):
     r = '乖小孩'
     if msg == 'hi':
         r = '嗨垃圾'
-    elif msg == '睡了沒'
+    elif msg == '睡了沒':
         r = '乾你屁事'
 
     line_bot_api.reply_message(
