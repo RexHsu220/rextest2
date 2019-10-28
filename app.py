@@ -52,7 +52,7 @@ def handle_message(event):
 
         return
     if msg in ['who are my classmates', 'what are my classmates', 'who the fuck are my classmates']:
-        r = print('your classmates are', classmates)
+        r = classmates
     if msg == 'hi':
         r = '嗨垃圾'
     elif msg == '睡了沒':
