@@ -34,7 +34,7 @@ def callback():
 
     return 'OK'
 
-classmates = ['Garry', 'Eric', 'Leon', 'Shannon', 'Phoebe', 'Dora', 'Ben', 'Jeffery', 'Boris', 'Wayne']
+
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
     
@@ -55,7 +55,7 @@ def handle_message(event):
     if msg == 'hi':
         r = '嗨垃圾'
     elif msg in ['who are my classmates', 'what are my classmates', 'who the fuck are my classmates']:
-        r = classmates
+        r = 'your classmates are baljhduaiuijidiahihihwifhu'
     elif msg == '睡了沒':
         r = '乾你屁事'
     elif msg in ['徐唯耀','rex', 'Rex']:
